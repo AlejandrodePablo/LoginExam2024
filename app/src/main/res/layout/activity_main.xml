@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <include layout="@layout/view_form" />
+    <include layout="@layout/fragment_user" />
 
 
 </FrameLayout>

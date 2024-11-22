@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navgraph">
+
+    <fragment
+        android:id="@+id/fragmentUser"
+        android:name="edu.iesam.loginexam1eval.features.presentation.UserFragment">
+        <action
+            android:id="@+id/action_fragmentUser_to_fragmentAlta"
+            app:destination="@id/fragmentAlta" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentAlta"
+        android:name="edu.iesam.loginexam1eval.features.presentation.AltaFragment">
+    </fragment>
+</navigation>
