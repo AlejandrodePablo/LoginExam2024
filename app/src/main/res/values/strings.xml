@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LoginExam1Eval</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="login_fragment">Login Fragment</string>
 </resources>
